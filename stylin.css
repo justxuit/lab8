@@ -56,7 +56,7 @@ body {
 #totalBox {
   color: #527a7a;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   font-size: 1.3em;
   width: 30%;
   margin: 4px auto;
