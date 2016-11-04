@@ -1,0 +1,65 @@
+body {
+  font-family: monospace;
+  color: #666666;
+}
+
+#headerBox {
+  background-color: #e0ebeb;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  padding: 1em;
+  text-align: center;
+}
+
+#wrapper {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: #b3cccc;
+  border-style: double;
+  border-width: 4px;
+  border-color: #666666;
+  border-radius: 4px;
+}
+
+
+#groceryList {
+  display: inline-block;
+  background-color: #e0ebeb;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+  border-radius: 4px;
+  font-size: 1.2em;
+  margin: auto;
+  width: 81%;
+  padding: 1em;
+  line-height: 150%;
+}
+
+#groceryPrice {
+  display: inline-block;
+  background-color: #e0ebeb;
+  text-align: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+  border-radius: 4px;
+  font-size: 1.2em;
+  padding: 1em 0.3em;
+  line-height: 150%;
+}
+
+#totalBox {
+  color: #527a7a;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.3em;
+  width: 30%;
+  margin: 4px auto;
+  padding: 1em 0 1em 0;
+  font-weight: bold;
+}
