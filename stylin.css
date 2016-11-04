@@ -1,10 +1,11 @@
 body {
   font-family: monospace;
   color: #666666;
+  background-color: #f0f5f5;
 }
 
-#headerBox {
-  background-color: #e0ebeb;
+.headAndFoot {
+  background-color: #d1e0e0;
   font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 3px;
@@ -24,7 +25,6 @@ body {
   border-color: #666666;
   border-radius: 4px;
 }
-
 
 #groceryList {
   display: inline-block;
@@ -62,4 +62,29 @@ body {
   margin: 4px auto;
   padding: 1em 0 1em 0;
   font-weight: bold;
+}
+
+#footer {
+  position: fixed;
+  bottom: 2px;
+  left: 1px;
+  width: 98%;
+  margin: auto;
+}
+
+button {
+  background-color: #006666;
+  border: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:active {
+  background-color: #b38f00;
 }
