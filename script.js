@@ -49,8 +49,6 @@ shoppingList.givePrice = function(){
   return total.toFixed(2);
 };
 
-
-
 var totalDiv = document.getElementById("totalBox");
 
 var printedTotal = document.createElement('div');
@@ -59,3 +57,11 @@ printedTotal.setAttribute("id", "total");
 printedTotal.innerHTML = "Your total is: $" +shoppingList.givePrice();
 
 totalDiv.appendChild(printedTotal);
+
+
+/*
+//ADD TO LIST
+function (addToList){
+
+};
+*/
