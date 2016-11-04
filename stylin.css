@@ -15,7 +15,7 @@ body {
 }
 
 #wrapper {
-  width: 40%;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
@@ -35,7 +35,7 @@ body {
   border-radius: 4px;
   font-size: 1.2em;
   margin: auto;
-  width: 81%;
+  width: 65%;
   padding: 1em;
   line-height: 150%;
 }
@@ -48,8 +48,9 @@ body {
   border-width: 1px;
   border-color: #666666;
   border-radius: 4px;
+  width: 15%;
   font-size: 1.2em;
-  padding: 1em 0.3em;
+  padding: 1em;
   line-height: 150%;
 }
 
@@ -72,7 +73,12 @@ body {
   margin: auto;
 }
 
-button {
+
+input {
+  font-family: monospace;
+}
+
+#submitButton {
   background-color: #006666;
   border: solid;
   border-width: 2px;
@@ -85,6 +91,10 @@ button {
   font-size: 16px;
 }
 
-button:active {
+#submitButton:hover {
   background-color: #b38f00;
+}
+
+#submitButton:active {
+  background-color: #806600;
 }

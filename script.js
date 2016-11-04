@@ -1,3 +1,5 @@
+(function(){
+
 var item1={
   name: "apple",
   price: 1.49,
@@ -40,7 +42,7 @@ shoppingList.forEach(function(itemDetails){
 
 
 
-//PRINTED TOTAL
+//CALCULATES TOTAL
 shoppingList.givePrice = function(){
   var total = 0;
   shoppingList.forEach(function(totalSum){
@@ -49,6 +51,7 @@ shoppingList.givePrice = function(){
   return total.toFixed(2);
 };
 
+//PRINTS TOTAL
 var totalDiv = document.getElementById("totalBox");
 
 var printedTotal = document.createElement('div');
@@ -58,10 +61,15 @@ printedTotal.innerHTML = "Your total is: $" +shoppingList.givePrice();
 
 totalDiv.appendChild(printedTotal);
 
+})();
 
 /*
 //ADD TO LIST
 function (addToList){
 
 };
+
+var plusButton = document.getElementById("submitButton");
+
+plusButton.onclick = addToList();
 */
