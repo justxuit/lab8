@@ -8,16 +8,17 @@
 
 <body>
   <div class="headAndFoot" id="headerBox">
-    <img src="icons-sm/cart-1.png"/>
-    <span>
-      shopping cart simulator!
-    </span>
+    <form>
+      ADD TO YOUR CART HERE
+      <br/>
+      <input type="text" id="newItem" placeholder="apple pen"/>
+      $<input type="text" id="newPrice" placeholder="2.99"/>
+      <button type="button" id="submitButton">+</button>
+      <br/>
+    </form>
   </div>
 
-  <br/><br/>
-
   <div id="wrapper">
-    <br/>
     <div id="clearBox">
       <button type="button" id="clearButton">clear</button>
     </div>
@@ -33,14 +34,10 @@
   </div>
 
   <div class="headAndFoot" id="footer">
-  <form>
-      ADD TO YOUR CART HERE
-      <br/>
-      <input type="text" id="newItem" placeholder="apple pen"/>
-      $<input type="text" id="newPrice" placeholder="2.99"/>
-      <button type="button" id="submitButton">+</button>
-      <br/>
-    </form>
+    <img src="icons-sm/cart-1.png"/>
+    <span>
+      shopping cart simulator!
+    </span>
   </div>
 
 <!--JS SCRIPT-->
