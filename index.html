@@ -1,15 +1,19 @@
 <!DOCtype html>
 <html>
 <head>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="stylin.css">
   <title>It's shoppin' time!</title>
 </head>
 
 <body>
   <div class="headAndFoot" id="headerBox">
-    your shopping cart!
+    <img src="icons-sm/cart-1.png"/>
+    <span>
+      shopping cart simulator!
+    </span>
   </div>
-  <br/><br/>
+  <br/>
   <div id="wrapper">
     <div id="groceryList">
     </div>
@@ -17,21 +21,21 @@
     </div>
   </div>
   <div id="totalBox">
+    Your total is: $0.00
   </div>
   <div class="headAndFoot" id="footer">
   <form>
-      Add to your cart here!
+      ADD TO CART
       <br/>
-      <input type="text" id="newItem" value="item">
-      $<input type="number" id="newPrice" value="0.00">
-      <input type="submit" value="+" id="submitButton">
+      <input type="text" id="newItem" placeholder="apple pen"/>
+      $<input type="text" id="newPrice" placeholder="2.99"/>
+      <button type="button" id="submitButton">+</button>
       <br/>
     </form>
-<!--    <button type="button">+</button> -->
   </div>
 
 <!--JS SCRIPT-->
-<script src="script.js" type="text/javascript"></script>
+<script src="script2.js" type="text/javascript"></script>
 <!-- -->
 </body>
 </html>
